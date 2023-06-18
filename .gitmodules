@@ -1,3 +1,6 @@
 [submodule "codeboost_projeto-wireframe"]
 	path = codeboost_projeto-wireframe
 	url = https://github.com/nathaliaveneziano/codeboost_projeto-wireframe.git
+[submodule "codeboost_sass"]
+	path = codeboost_sass
+	url = git@github.com:nathaliaveneziano/codeboost_sass.git
