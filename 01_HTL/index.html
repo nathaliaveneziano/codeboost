@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elementos estruturais</title>
+    <title>Formulários</title>
   </head>
   <body>
-    <!-- navegação principal do site com valor semântico -->
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Sobre nós</a></li>
-        <li><a href="">Contato</a></li>
-      </ul>
-    </nav>
+    <form action="">
+      <div>
+        <label for="input-nome">Nome</label>
+        <input id="input-nome" name="nome" type="text" />
+      </div>
+
+      <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" name="email" type="email" />
+      </div>
+
+      <div>
+        <label for="input-telefone">Telefone</label>
+        <input id="input-telefone" name="telefone" type="number" />
+      </div>
+
+      <div>
+        <label for="input-password">Senha</label>
+        <input id="input-password" name="password" type="password" />
+      </div>
+
+      <div>
+        <label for="input-mensagem">Senha</label>
+        <textarea
+          id="input-mensagem"
+          name="mensagem"
+          cols="30"
+          rows="10"></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
   </body>
 </html>
