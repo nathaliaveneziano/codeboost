@@ -1,11 +1,12 @@
-p {
-  color: red;
-  font-weight: bold;
-  font-size: 18px;
+section h1 {
+  color: green;
+  font-size: 80px;
 }
 
-a {
+section p {
   color: blue;
-  font-weight: 500;
-  text-decoration: none;
+}
+
+p {
+  color: red;
 }
