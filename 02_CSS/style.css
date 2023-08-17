@@ -1,3 +1,15 @@
 #btn-botao {
   background-color: red;
 }
+
+#btn-botao:hover {
+  background-color: blue;
+}
+
+input {
+  outline: none;
+}
+
+input[type='text']:focus {
+  border: 1px solid red;
+}
