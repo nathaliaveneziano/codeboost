@@ -3,38 +3,31 @@ body {
 }
 
 section {
-  width: 100%;
-  height: 1500px;
-  padding-top: 200px;
+  position: relative;
 }
 
 section .square {
-  /**
-  static = padrão, mas as orientações não funcionam
-  fixed = fixado em toda a janela visível (como adesivo)
-  sticky = elemento fixo dentro do elemento pai a partir do momento que chega nele
-  relative = é como um bloco sem atrapalhar os outros elementos presentes que ainda podemos utilizar as orientações
-  absolute = se alinha ao elemento relative mais próximo, se não tiver, será relacionado ao corpo mas se sobrepoe a outros elementos
-  */
-  width: 500px;
-  height: 500px;
-  background-color: #1c1824;
-}
-
-section .square .rectangle {
   position: absolute;
-  top: 150px;
-  left: 50px;
-
-  width: 200px;
+  width: 100px;
   height: 100px;
-  background-color: #f67acb;
 }
 
-section.red {
+section .square.red {
+  top: 50px;
+  z-index: 1;
   background-color: #f00;
 }
 
-section.red .square {
-  position: relative;
+section .square.blue {
+  left: 50px;
+  top: 10px;
+  z-index: 2;
+  background-color: #00f;
+}
+
+section .square.green {
+  top: 80px;
+  left: 100px;
+  z-index: 3;
+  background-color: #0f0;
 }
