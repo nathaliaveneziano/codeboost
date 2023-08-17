@@ -14,12 +14,14 @@ section.red {
 
 section .square {
   /**
-  static = padrão
+  static = padrão, mas as orientações não funcionam
   fixed = fixado em toda a janela visível
+  sticky = elemento fixo dentro do elemento pai a partir do momento que chega nele
+  relative = é como um bloco sem atrapalhar os outros elementos presentes que ainda podemos utilizar as orientações
   */
-  position: sticky;
-  top: 0px;
-  left: 0px;
+  position: relative;
+  top: 20px;
+  left: 20px;
 
   width: 500px;
   height: 500px;
@@ -27,6 +29,10 @@ section .square {
 }
 
 section .square .rectangle {
+  position: relative;
+  top: 20px;
+  left: 20px;
+
   width: 200px;
   height: 100px;
   background-color: #f67acb;
