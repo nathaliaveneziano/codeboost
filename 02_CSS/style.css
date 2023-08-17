@@ -1,14 +1,3 @@
-.titulo-principal {
-  color: red;
-}
-
-.botao-enviar {
-  background-color: black;
-  color: white;
-  width: 120px;
-  height: 60px;
-}
-
-.botao-enviar.botao-cadastrar {
-  background-color: blue;
+#btn-botao {
+  background-color: red;
 }
