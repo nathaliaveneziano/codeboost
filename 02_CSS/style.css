@@ -1,19 +1,32 @@
-.square {
-  width: 100px;
-  height: 100px;
-  /**
-  block = ocupa toda a tela
-  inline = ocupa o espaço apenas do conteúdo
-  inline-block = mescla os dois anteriores
-  none = remove o elemento da tela
-  */
-  display: inline-block;
+body {
+  background: #050110;
 }
 
-.square.red {
+section {
+  width: 100%;
+  height: 1500px;
+}
+
+section.red {
   background-color: #f00;
 }
 
-.square.blue {
-  background-color: #00f;
+section .square {
+  /**
+  static = padrão
+  fixed = fixado em toda a janela visível
+  */
+  position: fixed;
+  top: 50px;
+  left: 50px;
+
+  width: 500px;
+  height: 500px;
+  background-color: #1c1824;
+}
+
+section .square .rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: #f67acb;
 }
