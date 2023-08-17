@@ -1,21 +1,23 @@
-p {
-  color: rgb(165, 151, 151);
-  font-size: 64px;
-  font-weight: 400;
-  font-style: italic;
-  text-transform: uppercase;
-  text-align: left;
-  text-shadow: 0px 0px 20px yellow;
-  text-indent: 150px;
-  letter-spacing: 5px;
+.conteudo {
+  width: 800px;
+  height: 900px;
+  background-color: #808080;
+  margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
+.conteudo .caixa-01 {
+  width: 300px;
+  height: 300px;
+  background-color: #00f;
+  padding: 50px;
+  border: 10px dashed #000;
 }
 
-ul {
-  list-style: none;
-  list-style-type: circle;
-  list-style-image: url('./img/points.png');
+.conteudo .caixa-02 {
+  width: 300px;
+  height: 300px;
+  background-color: #f00;
+  padding: 35px;
+  margin-top: 50px;
+  box-sizing: border-box;
 }
