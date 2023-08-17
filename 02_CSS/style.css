@@ -1,33 +1,16 @@
-body {
-  background: #050110;
+:root {
+  --cor-primaria: red;
+  --cor-secundaria: blue;
 }
 
 section {
-  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: var(--cor-primaria);
 }
 
 section .square {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-}
-
-section .square.red {
-  top: 50px;
-  z-index: 1;
-  background-color: #f00;
-}
-
-section .square.blue {
-  left: 50px;
-  top: 10px;
-  z-index: 2;
-  background-color: #00f;
-}
-
-section .square.green {
-  top: 80px;
-  left: 100px;
-  z-index: 3;
-  background-color: #0f0;
+  width: 200px;
+  height: 200px;
+  background-color: var(--cor-secundaria);
 }
