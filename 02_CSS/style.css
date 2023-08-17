@@ -8,32 +8,33 @@ section {
   padding-top: 200px;
 }
 
-section.red {
-  background-color: #f00;
-}
-
 section .square {
   /**
   static = padrão, mas as orientações não funcionam
-  fixed = fixado em toda a janela visível
+  fixed = fixado em toda a janela visível (como adesivo)
   sticky = elemento fixo dentro do elemento pai a partir do momento que chega nele
   relative = é como um bloco sem atrapalhar os outros elementos presentes que ainda podemos utilizar as orientações
+  absolute = se alinha ao elemento relative mais próximo, se não tiver, será relacionado ao corpo mas se sobrepoe a outros elementos
   */
-  position: relative;
-  top: 20px;
-  left: 20px;
-
   width: 500px;
   height: 500px;
   background-color: #1c1824;
 }
 
 section .square .rectangle {
-  position: relative;
-  top: 20px;
-  left: 20px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
 
   width: 200px;
   height: 100px;
   background-color: #f67acb;
+}
+
+section.red {
+  background-color: #f00;
+}
+
+section.red .square {
+  position: relative;
 }
