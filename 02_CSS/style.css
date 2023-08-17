@@ -2,22 +2,18 @@
   color: #fff;
 }
 
-html {
-  font-size: 16px;
-}
-
 body {
   background: #050110;
 }
 
 section {
-  font-size: 18px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-p {
-  font-size: 1em;
+section .square {
+  background-color: #1c1824;
+  width: 33%;
+  height: 400px;
 }
