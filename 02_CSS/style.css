@@ -1,27 +1,11 @@
-body {
-  background-color: black;
-}
-
-h1 {
-  color: #ffffff;
-}
-
 p {
-  color: #ffffff;
-  max-width: 400px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-button {
-  background-color: blue;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-  font-size: 60px;
-}
-
-.div-direita button {
-  background-color: green;
-}
-
-.div-esquerda button {
-  background-color: red;
+a {
+  color: blue;
+  font-weight: 500;
+  text-decoration: none;
 }
