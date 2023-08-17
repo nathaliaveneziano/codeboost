@@ -1,19 +1,19 @@
-* {
-  color: #fff;
+.square {
+  width: 100px;
+  height: 100px;
+  /**
+  block = ocupa toda a tela
+  inline = ocupa o espaço apenas do conteúdo
+  inline-block = mescla os dois anteriores
+  none = remove o elemento da tela
+  */
+  display: inline-block;
 }
 
-body {
-  background: #050110;
+.square.red {
+  background-color: #f00;
 }
 
-section {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-}
-
-section .square {
-  background-color: #1c1824;
-  width: 33%;
-  height: 400px;
+.square.blue {
+  background-color: #00f;
 }
