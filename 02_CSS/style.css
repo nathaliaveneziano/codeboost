@@ -1,7 +1,4 @@
-p,
-strong,
-a {
-  color: red;
-  font-weight: bold;
-  font-size: 20px;
+* {
+   color: red;
+   margin-top: 150px;
 }
