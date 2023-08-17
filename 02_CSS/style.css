@@ -1,12 +1,7 @@
-section h1 {
-  color: green;
-  font-size: 80px;
-}
-
-section p {
-  color: blue;
-}
-
-p {
+p,
+strong,
+a {
   color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
