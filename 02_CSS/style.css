@@ -1,11 +1,21 @@
-ul li:first-child {
-  color: red;
+p {
+  color: rgb(165, 151, 151);
+  font-size: 64px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: left;
+  text-shadow: 0px 0px 20px yellow;
+  text-indent: 150px;
+  letter-spacing: 5px;
 }
 
-ul li:last-child {
-  color: blue;
+a {
+  text-decoration: none;
 }
 
-ul li:nth-child(3) {
-  color: yellow;
+ul {
+  list-style: none;
+  list-style-type: circle;
+  list-style-image: url('./img/points.png');
 }
