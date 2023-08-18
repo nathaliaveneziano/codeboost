@@ -61,18 +61,10 @@ h1 {
 }
 
 main {
-  height: 800px;
   border: 1px solid var(--white);
   border-radius: 5px;
   padding: 10px;
   display: flex;
-  /*
-  --- ALINHAMENTO VERTICAL ---
-  flex-start = inicio do elemento pai
-  flex-end = final do elemento pai
-  center = centraliza os elementos em relação ao pai
-  */
-  align-items: center;
 }
 
 main div {
@@ -90,17 +82,17 @@ main div {
 }
 
 main div:first-child {
-  height: 200px;
+  order: 3;
 }
 
 main div:nth-child(2) {
-  height: 300px;
+  order: 4;
 }
 
 main div:nth-child(3) {
-  height: 500px;
+  order: 1;
 }
 
 main div:last-child {
-  height: 600px;
+  order: 2;
 }
