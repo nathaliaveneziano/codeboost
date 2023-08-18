@@ -65,6 +65,8 @@ main {
   border-radius: 5px;
   padding: 10px;
   display: flex;
+  /* row (padrao) | column | row-reverse | column-reverse */
+  flex-direction: row;
 }
 
 main div {
