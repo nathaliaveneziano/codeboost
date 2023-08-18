@@ -65,12 +65,12 @@ main {
   border-radius: 5px;
   padding: 10px;
   display: flex;
-  /* row (padrao) | column | row-reverse | column-reverse */
-  flex-direction: row;
+  /* nowrap (padrao) = não quebra | wrap = quebra os elementos filhos quando chega ao tamanho máximo do pai */
+  flex-wrap: wrap;
 }
 
 main div {
-  width: 150px;
+  width: 49%;
   height: 150px;
   background-color: var(--gray);
   border: 1px solid rgba(255, 255, 255, 0.1);
