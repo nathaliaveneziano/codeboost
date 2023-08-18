@@ -1,37 +1,35 @@
-button {
-  display: block;
-  width: 200px;
-  height: 200px;
-  background-color: #000;
-  color: #fff;
-  /* 
-  ease | ease-in-out | ease-out | ease-in
-  linear
-  step-end
-  steps(qtd, termino)
-  */
-  transition: all 0.3s;
+/* Exemplo 01 */
+h1 {
+  font-size: 80px;
 }
 
-button:nth-child(2) {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 200px;
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
 }
 
-button:nth-child(3) {
-  transition: width 0.3s;
+@media screen and (max-width: 4800px) {
+  h1 {
+    font-size: 22px;
+  }
 }
 
-button:first-child:hover {
-  background-color: #fff;
-  color: #000;
+/* Exemplo 02 */
+section {
+  display: flex;
 }
 
-button:nth-child(2):hover {
-  transform: scale(2);
-}
+@media screen and (max-width: 4800px) {
+  section {
+    flex-direction: column;
+  }
 
-button:nth-child(3):hover {
-  width: 400px;
+  .area-vermelha {
+    background-color: red;
+  }
+
+  .area-azul {
+    background-color: blue;
+  }
 }
