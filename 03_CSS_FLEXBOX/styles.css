@@ -65,12 +65,19 @@ main {
   border-radius: 5px;
   padding: 10px;
   display: flex;
-  /* nowrap (padrao) = não quebra | wrap = quebra os elementos filhos quando chega ao tamanho máximo do pai */
-  flex-wrap: wrap;
+  /*
+  --- ALINHAMENTO HORIZONTAL ---
+  flex-start = inicio do elemento pai
+  flex-end = final do elemento pai
+  center = centraliza os elementos em relação ao pai
+  space-between = distribui proporcionalmente os elementos grudando as extremidades no elemento pai
+  space-around = igual o anterior mas com espacamento igual em todos os elementos
+  */
+  justify-content: center;
 }
 
 main div {
-  width: 49%;
+  width: 150px;
   height: 150px;
   background-color: var(--gray);
   border: 1px solid rgba(255, 255, 255, 0.1);
