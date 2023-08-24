@@ -1,0 +1,23 @@
+@mixin flex-element($align, $justify, $direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin style-btn($largura, $altura, $bg) {
+  width: $largura;
+  height: $altura;
+  background-color: $bg;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  @include flex-element(center, center, row);
+}
+
+@mixin responsive($screenWidth) {
+  @media screen and (max-width: $screenWidth) {
+    @content;
+  }
+}

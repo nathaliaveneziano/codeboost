@@ -1,0 +1,73 @@
+.s-hero {
+  .container {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: 3.2rem;
+    }
+
+    p {
+      
+    }
+  }
+
+  @include responsive(1200px) {
+    .container {
+      flex-direction: column;
+    }
+    .text {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @include responsive(991px) {
+    .text {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @include responsive(768px) {
+    .text {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @include responsive(600px) {
+    .text {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @include responsive(480px) {
+    .text {
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+.s-contact {
+  background-color: red;
+
+  .text {
+    max-width: 800px;
+  }
+
+  @include responsive(991px) {
+    .text {
+      max-width: 600px;
+    }
+  }
+
+  @include responsive(480px) {
+    background-color: blue;
+  }
+}
