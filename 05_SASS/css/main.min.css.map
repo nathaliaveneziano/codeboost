@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/_reset.scss","../scss/_responsive.scss","../scss/_buttons.scss","../scss/_footer.scss"],"names":[],"mappings":"AAAA,EACE,QAAA,CACA,SAAA,CCFF,sCACE,GACE,cAAA,CAAA,CCFJ,aACE,oBAAA,CCDF,OACE,qBAAA","file":"main.min.css"}
+{"version":3,"sources":["../scss/_home.scss","../scss/_variables.scss"],"names":[],"mappings":"AAAA,OACE,UAAA,CACA,WAAA,CACA,sBCHW,CDMb,QACE,gBAAA,CACA,UAAA,CACA,YAAA,CACA,sBCVW,CDYX,WACE,SCZc","file":"main.min.css"}
