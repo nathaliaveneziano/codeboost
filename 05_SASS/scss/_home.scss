@@ -1,40 +1,17 @@
-.s-hero {
-  width: 100%;
-  height: 800px;
-  background-color: $main-color;
-
-  .text {
-    h1 {
-      color: $color-text;
-    }
-
-    p {
-      color: $color-text;
-    }
+.first-section {
+  .btn {
+    @include style-btn(200px, 200px, purple);
   }
+}
 
-  .image {
-    width: 100px;
-    height: 100px;
-    background-color: $brand-color;
-    margin-bottom: 20px;
+.second-section {
+  .btn {
+    @include style-btn(100px, 100px, green);
   }
+}
 
+footer {
   button {
-    background-color: $brand-color;
-    border: none;
-    padding: 20px 30px;
-    font-size: 22px;
-    color: $color-text;
-    border-radius: 5px;
-    cursor: pointer;
-
-    &.active {
-      background-color: blue;
-    }
-
-    &:hover {
-      background-color: red;
-    }
+    @include style-btn(75px, 75px, red);
   }
 }
