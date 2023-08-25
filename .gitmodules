@@ -1,3 +1,6 @@
 [submodule "04_PROJETO_WIREFRAME"]
 	path = 04_PROJETO_WIREFRAME
 	url = git@github.com:nathaliaveneziano/codeboost_projeto-wireframe.git
+[submodule "05_SASS/PROJETO_KINGHOST"]
+	path = 05_SASS/PROJETO_KINGHOST
+	url = git@github.com:nathaliaveneziano/codeboost_projeto-sass.git
