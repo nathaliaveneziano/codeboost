@@ -4,3 +4,6 @@
 [submodule "05_SASS/PROJETO_KINGHOST"]
 	path = 05_SASS/PROJETO_KINGHOST
 	url = git@github.com:nathaliaveneziano/codeboost_projeto-sass.git
+[submodule "06_PROJETO_NEON"]
+	path = 06_PROJETO_NEON
+	url = git@github.com:nathaliaveneziano/codeboost_projeto-neon.git
