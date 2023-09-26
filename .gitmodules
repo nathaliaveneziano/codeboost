@@ -7,3 +7,6 @@
 [submodule "06_PROJETO_NEON"]
 	path = 06_PROJETO_NEON
 	url = git@github.com:nathaliaveneziano/codeboost_projeto-neon.git
+[submodule "07_PROJETO_NEON_WP/neon-theme"]
+	path = 07_PROJETO_NEON_WP/neon-theme
+	url = git@github.com:nathaliaveneziano/codeboost_projeto-neon-wp.git
